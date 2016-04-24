@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED8B45B21CB8B2F200D5BFD7 /* CGDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8B45B11CB8B2F200D5BFD7 /* CGDrawingViewController.m */; };
+		ED8B45B51CB8B38200D5BFD7 /* CGDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8B45B41CB8B38200D5BFD7 /* CGDrawingView.m */; };
+		ED8B45B81CB8D86C00D5BFD7 /* CGBrushStrokeView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8B45B71CB8D86C00D5BFD7 /* CGBrushStrokeView.m */; };
+		EDAC87901CB7546500D48028 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAC878F1CB7546500D48028 /* main.m */; };
+		EDAC87931CB7546500D48028 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAC87921CB7546500D48028 /* AppDelegate.m */; };
+		EDAC87961CB7546500D48028 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAC87951CB7546500D48028 /* ViewController.m */; };
+		EDAC87991CB7546500D48028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAC87971CB7546500D48028 /* Main.storyboard */; };
+		EDAC879B1CB7546500D48028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDAC879A1CB7546500D48028 /* Assets.xcassets */; };
+		EDAC879E1CB7546500D48028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAC879C1CB7546500D48028 /* LaunchScreen.storyboard */; };
+		EDAC87A91CB7546500D48028 /* CoreAnimationSkillsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAC87A81CB7546500D48028 /* CoreAnimationSkillsTests.m */; };
+		EDAC87B41CB7546500D48028 /* CoreAnimationSkillsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAC87B31CB7546500D48028 /* CoreAnimationSkillsUITests.m */; };
+		EDAC87CA1CB7549300D48028 /* blackBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDAC87C21CB7549300D48028 /* blackBack@2x.png */; };
+		EDAC87CB1CB7549300D48028 /* house@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDAC87C31CB7549300D48028 /* house@3x.png */; };
+		EDAC87CC1CB7549300D48028 /* Starcraft2_HeartOfTheSwarmCG.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EDAC87C41CB7549300D48028 /* Starcraft2_HeartOfTheSwarmCG.mp4 */; };
+		EDAC87CD1CB7549300D48028 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAC87C61CB7549300D48028 /* RootViewController.m */; };
+		EDAC87CE1CB7549300D48028 /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAC87C91CB7549300D48028 /* ReflectionView.m */; };
+		EDAC87D11CB7582900D48028 /* CAEmitterLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAC87D01CB7582900D48028 /* CAEmitterLayerViewController.m */; };
+		EDAC87DA1CB758A500D48028 /* CATextLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAC87D91CB758A500D48028 /* CATextLayerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDAC87A51CB7546500D48028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDAC87831CB7546400D48028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDAC878A1CB7546500D48028;
+			remoteInfo = CoreAnimationSkills;
+		};
+		EDAC87B01CB7546500D48028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDAC87831CB7546400D48028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDAC878A1CB7546500D48028;
+			remoteInfo = CoreAnimationSkills;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED8B45B01CB8B2F200D5BFD7 /* CGDrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDrawingViewController.h; sourceTree = "<group>"; };
+		ED8B45B11CB8B2F200D5BFD7 /* CGDrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDrawingViewController.m; sourceTree = "<group>"; };
+		ED8B45B31CB8B38200D5BFD7 /* CGDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGDrawingView.h; sourceTree = "<group>"; };
+		ED8B45B41CB8B38200D5BFD7 /* CGDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGDrawingView.m; sourceTree = "<group>"; };
+		ED8B45B61CB8D86C00D5BFD7 /* CGBrushStrokeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGBrushStrokeView.h; sourceTree = "<group>"; };
+		ED8B45B71CB8D86C00D5BFD7 /* CGBrushStrokeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGBrushStrokeView.m; sourceTree = "<group>"; };
+		EDAC878B1CB7546500D48028 /* CoreAnimationSkills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationSkills.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAC878F1CB7546500D48028 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDAC87911CB7546500D48028 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDAC87921CB7546500D48028 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDAC87941CB7546500D48028 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDAC87951CB7546500D48028 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDAC87981CB7546500D48028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDAC879A1CB7546500D48028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDAC879D1CB7546500D48028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDAC879F1CB7546500D48028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAC87A41CB7546500D48028 /* CoreAnimationSkillsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAnimationSkillsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAC87A81CB7546500D48028 /* CoreAnimationSkillsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationSkillsTests.m; sourceTree = "<group>"; };
+		EDAC87AA1CB7546500D48028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAC87AF1CB7546500D48028 /* CoreAnimationSkillsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAnimationSkillsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAC87B31CB7546500D48028 /* CoreAnimationSkillsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationSkillsUITests.m; sourceTree = "<group>"; };
+		EDAC87B51CB7546500D48028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAC87C21CB7549300D48028 /* blackBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackBack@2x.png"; sourceTree = "<group>"; };
+		EDAC87C31CB7549300D48028 /* house@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "house@3x.png"; sourceTree = "<group>"; };
+		EDAC87C41CB7549300D48028 /* Starcraft2_HeartOfTheSwarmCG.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starcraft2_HeartOfTheSwarmCG.mp4; sourceTree = "<group>"; };
+		EDAC87C51CB7549300D48028 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		EDAC87C61CB7549300D48028 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		EDAC87C81CB7549300D48028 /* ReflectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectionView.h; sourceTree = "<group>"; };
+		EDAC87C91CB7549300D48028 /* ReflectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectionView.m; sourceTree = "<group>"; };
+		EDAC87CF1CB7582900D48028 /* CAEmitterLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAEmitterLayerViewController.h; sourceTree = "<group>"; };
+		EDAC87D01CB7582900D48028 /* CAEmitterLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerViewController.m; sourceTree = "<group>"; };
+		EDAC87D81CB758A500D48028 /* CATextLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATextLayerViewController.h; sourceTree = "<group>"; };
+		EDAC87D91CB758A500D48028 /* CATextLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATextLayerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDAC87881CB7546500D48028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAC87A11CB7546500D48028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAC87AC1CB7546500D48028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDAC87821CB7546400D48028 = {
+			isa = PBXGroup;
+			children = (
+				EDAC87C11CB7549300D48028 /* Resource */,
+				EDAC878D1CB7546500D48028 /* CoreAnimationSkills */,
+				EDAC87A71CB7546500D48028 /* CoreAnimationSkillsTests */,
+				EDAC87B21CB7546500D48028 /* CoreAnimationSkillsUITests */,
+				EDAC878C1CB7546500D48028 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDAC878C1CB7546500D48028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDAC878B1CB7546500D48028 /* CoreAnimationSkills.app */,
+				EDAC87A41CB7546500D48028 /* CoreAnimationSkillsTests.xctest */,
+				EDAC87AF1CB7546500D48028 /* CoreAnimationSkillsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDAC878D1CB7546500D48028 /* CoreAnimationSkills */ = {
+			isa = PBXGroup;
+			children = (
+				EDAC87C71CB7549300D48028 /* view */,
+				EDAC87C51CB7549300D48028 /* RootViewController.h */,
+				EDAC87C61CB7549300D48028 /* RootViewController.m */,
+				EDAC87941CB7546500D48028 /* ViewController.h */,
+				EDAC87951CB7546500D48028 /* ViewController.m */,
+				EDAC87CF1CB7582900D48028 /* CAEmitterLayerViewController.h */,
+				EDAC87D01CB7582900D48028 /* CAEmitterLayerViewController.m */,
+				EDAC87D81CB758A500D48028 /* CATextLayerViewController.h */,
+				EDAC87D91CB758A500D48028 /* CATextLayerViewController.m */,
+				ED8B45B01CB8B2F200D5BFD7 /* CGDrawingViewController.h */,
+				ED8B45B11CB8B2F200D5BFD7 /* CGDrawingViewController.m */,
+				EDAC87971CB7546500D48028 /* Main.storyboard */,
+				EDAC878E1CB7546500D48028 /* Supporting Files */,
+			);
+			path = CoreAnimationSkills;
+			sourceTree = "<group>";
+		};
+		EDAC878E1CB7546500D48028 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDAC87911CB7546500D48028 /* AppDelegate.h */,
+				EDAC87921CB7546500D48028 /* AppDelegate.m */,
+				EDAC879A1CB7546500D48028 /* Assets.xcassets */,
+				EDAC879C1CB7546500D48028 /* LaunchScreen.storyboard */,
+				EDAC879F1CB7546500D48028 /* Info.plist */,
+				EDAC878F1CB7546500D48028 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDAC87A71CB7546500D48028 /* CoreAnimationSkillsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDAC87A81CB7546500D48028 /* CoreAnimationSkillsTests.m */,
+				EDAC87AA1CB7546500D48028 /* Info.plist */,
+			);
+			path = CoreAnimationSkillsTests;
+			sourceTree = "<group>";
+		};
+		EDAC87B21CB7546500D48028 /* CoreAnimationSkillsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDAC87B31CB7546500D48028 /* CoreAnimationSkillsUITests.m */,
+				EDAC87B51CB7546500D48028 /* Info.plist */,
+			);
+			path = CoreAnimationSkillsUITests;
+			sourceTree = "<group>";
+		};
+		EDAC87C11CB7549300D48028 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EDAC87C21CB7549300D48028 /* blackBack@2x.png */,
+				EDAC87C31CB7549300D48028 /* house@3x.png */,
+				EDAC87C41CB7549300D48028 /* Starcraft2_HeartOfTheSwarmCG.mp4 */,
+			);
+			name = Resource;
+			path = CoreAnimationSkills/Resource;
+			sourceTree = "<group>";
+		};
+		EDAC87C71CB7549300D48028 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				EDAC87C81CB7549300D48028 /* ReflectionView.h */,
+				EDAC87C91CB7549300D48028 /* ReflectionView.m */,
+				ED8B45B31CB8B38200D5BFD7 /* CGDrawingView.h */,
+				ED8B45B41CB8B38200D5BFD7 /* CGDrawingView.m */,
+				ED8B45B61CB8D86C00D5BFD7 /* CGBrushStrokeView.h */,
+				ED8B45B71CB8D86C00D5BFD7 /* CGBrushStrokeView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDAC878A1CB7546500D48028 /* CoreAnimationSkills */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAC87B81CB7546500D48028 /* Build configuration list for PBXNativeTarget "CoreAnimationSkills" */;
+			buildPhases = (
+				EDAC87871CB7546500D48028 /* Sources */,
+				EDAC87881CB7546500D48028 /* Frameworks */,
+				EDAC87891CB7546500D48028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreAnimationSkills;
+			productName = CoreAnimationSkills;
+			productReference = EDAC878B1CB7546500D48028 /* CoreAnimationSkills.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDAC87A31CB7546500D48028 /* CoreAnimationSkillsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAC87BB1CB7546500D48028 /* Build configuration list for PBXNativeTarget "CoreAnimationSkillsTests" */;
+			buildPhases = (
+				EDAC87A01CB7546500D48028 /* Sources */,
+				EDAC87A11CB7546500D48028 /* Frameworks */,
+				EDAC87A21CB7546500D48028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDAC87A61CB7546500D48028 /* PBXTargetDependency */,
+			);
+			name = CoreAnimationSkillsTests;
+			productName = CoreAnimationSkillsTests;
+			productReference = EDAC87A41CB7546500D48028 /* CoreAnimationSkillsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDAC87AE1CB7546500D48028 /* CoreAnimationSkillsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAC87BE1CB7546500D48028 /* Build configuration list for PBXNativeTarget "CoreAnimationSkillsUITests" */;
+			buildPhases = (
+				EDAC87AB1CB7546500D48028 /* Sources */,
+				EDAC87AC1CB7546500D48028 /* Frameworks */,
+				EDAC87AD1CB7546500D48028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDAC87B11CB7546500D48028 /* PBXTargetDependency */,
+			);
+			name = CoreAnimationSkillsUITests;
+			productName = CoreAnimationSkillsUITests;
+			productReference = EDAC87AF1CB7546500D48028 /* CoreAnimationSkillsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDAC87831CB7546400D48028 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MichaelMao;
+				TargetAttributes = {
+					EDAC878A1CB7546500D48028 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					EDAC87A31CB7546500D48028 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EDAC878A1CB7546500D48028;
+					};
+					EDAC87AE1CB7546500D48028 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EDAC878A1CB7546500D48028;
+					};
+				};
+			};
+			buildConfigurationList = EDAC87861CB7546400D48028 /* Build configuration list for PBXProject "CoreAnimationSkills" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDAC87821CB7546400D48028;
+			productRefGroup = EDAC878C1CB7546500D48028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDAC878A1CB7546500D48028 /* CoreAnimationSkills */,
+				EDAC87A31CB7546500D48028 /* CoreAnimationSkillsTests */,
+				EDAC87AE1CB7546500D48028 /* CoreAnimationSkillsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDAC87891CB7546500D48028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAC87CC1CB7549300D48028 /* Starcraft2_HeartOfTheSwarmCG.mp4 in Resources */,
+				EDAC879E1CB7546500D48028 /* LaunchScreen.storyboard in Resources */,
+				EDAC879B1CB7546500D48028 /* Assets.xcassets in Resources */,
+				EDAC87CB1CB7549300D48028 /* house@3x.png in Resources */,
+				EDAC87991CB7546500D48028 /* Main.storyboard in Resources */,
+				EDAC87CA1CB7549300D48028 /* blackBack@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAC87A21CB7546500D48028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAC87AD1CB7546500D48028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDAC87871CB7546500D48028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAC87DA1CB758A500D48028 /* CATextLayerViewController.m in Sources */,
+				ED8B45B81CB8D86C00D5BFD7 /* CGBrushStrokeView.m in Sources */,
+				ED8B45B51CB8B38200D5BFD7 /* CGDrawingView.m in Sources */,
+				ED8B45B21CB8B2F200D5BFD7 /* CGDrawingViewController.m in Sources */,
+				EDAC87961CB7546500D48028 /* ViewController.m in Sources */,
+				EDAC87931CB7546500D48028 /* AppDelegate.m in Sources */,
+				EDAC87CD1CB7549300D48028 /* RootViewController.m in Sources */,
+				EDAC87901CB7546500D48028 /* main.m in Sources */,
+				EDAC87CE1CB7549300D48028 /* ReflectionView.m in Sources */,
+				EDAC87D11CB7582900D48028 /* CAEmitterLayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAC87A01CB7546500D48028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAC87A91CB7546500D48028 /* CoreAnimationSkillsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAC87AB1CB7546500D48028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAC87B41CB7546500D48028 /* CoreAnimationSkillsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDAC87A61CB7546500D48028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDAC878A1CB7546500D48028 /* CoreAnimationSkills */;
+			targetProxy = EDAC87A51CB7546500D48028 /* PBXContainerItemProxy */;
+		};
+		EDAC87B11CB7546500D48028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDAC878A1CB7546500D48028 /* CoreAnimationSkills */;
+			targetProxy = EDAC87B01CB7546500D48028 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDAC87971CB7546500D48028 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDAC87981CB7546500D48028 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDAC879C1CB7546500D48028 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDAC879D1CB7546500D48028 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDAC87B61CB7546500D48028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDAC87B71CB7546500D48028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDAC87B91CB7546500D48028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreAnimationSkills/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelmao.CoreAnimationSkills;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDAC87BA1CB7546500D48028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreAnimationSkills/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelmao.CoreAnimationSkills;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDAC87BC1CB7546500D48028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoreAnimationSkillsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelmao.CoreAnimationSkillsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreAnimationSkills.app/CoreAnimationSkills";
+			};
+			name = Debug;
+		};
+		EDAC87BD1CB7546500D48028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoreAnimationSkillsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelmao.CoreAnimationSkillsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreAnimationSkills.app/CoreAnimationSkills";
+			};
+			name = Release;
+		};
+		EDAC87BF1CB7546500D48028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CoreAnimationSkillsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelmao.CoreAnimationSkillsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoreAnimationSkills;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EDAC87C01CB7546500D48028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CoreAnimationSkillsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelmao.CoreAnimationSkillsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoreAnimationSkills;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDAC87861CB7546400D48028 /* Build configuration list for PBXProject "CoreAnimationSkills" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAC87B61CB7546500D48028 /* Debug */,
+				EDAC87B71CB7546500D48028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAC87B81CB7546500D48028 /* Build configuration list for PBXNativeTarget "CoreAnimationSkills" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAC87B91CB7546500D48028 /* Debug */,
+				EDAC87BA1CB7546500D48028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAC87BB1CB7546500D48028 /* Build configuration list for PBXNativeTarget "CoreAnimationSkillsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAC87BC1CB7546500D48028 /* Debug */,
+				EDAC87BD1CB7546500D48028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAC87BE1CB7546500D48028 /* Build configuration list for PBXNativeTarget "CoreAnimationSkillsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAC87BF1CB7546500D48028 /* Debug */,
+				EDAC87C01CB7546500D48028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDAC87831CB7546400D48028 /* Project object */;
+}
